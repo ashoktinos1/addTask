@@ -80,7 +80,7 @@ class CategoryWidget extends StatelessWidget {
                                       Text(
                                         data.name!,
                                         style: const TextStyle(
-                                            fontSize: 22,
+                                            fontSize: 21,
                                             fontWeight: FontWeight.bold),
                                       ),
                                       const SizedBox(
@@ -94,7 +94,7 @@ class CategoryWidget extends StatelessWidget {
                                             text:  const TextSpan(
                                                 text: "Task ",
                                                 style: TextStyle(
-                                                    fontSize: 12,
+                                                    fontSize: 10,
                                                     color: Colors.black,
                                                     fontWeight:
                                                         FontWeight.w600),
@@ -102,7 +102,7 @@ class CategoryWidget extends StatelessWidget {
                                                   TextSpan(
                                                     text:"3",
                                                     style: TextStyle(
-                                                        fontSize: 12,
+                                                        fontSize: 10,
                                                         color: Colors.red,
                                                         fontWeight:
                                                             FontWeight.w600),
@@ -113,7 +113,7 @@ class CategoryWidget extends StatelessWidget {
                                             text: const TextSpan(
                                                 text: "employees ",
                                                 style: TextStyle(
-                                                    fontSize: 12,
+                                                    fontSize: 10,
                                                     color: Colors.black,
                                                     fontWeight:
                                                         FontWeight.w600),
